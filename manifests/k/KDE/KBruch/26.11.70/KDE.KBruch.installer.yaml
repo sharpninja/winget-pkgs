@@ -6,17 +6,18 @@ PackageVersion: 26.11.70
 InstallerType: nullsoft
 UpgradeBehavior: install
 ProductCode: kbruch
+ReleaseDate: 2026-07-28
 Installers:
 - Architecture: x64
   Scope: user
-  InstallerUrl: https://cdn.kde.org/ci-builds/education/kbruch/master/windows/kbruch-master-870-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: B865218F80578027EE7AA65EF09395234ACE8B8DFEDD56018AA05C057449C97C
+  InstallerUrl: https://cdn.kde.org/ci-builds/education/kbruch/master/windows/kbruch-master-881-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 09B8F92649E0A74BCA6915B00C3F50CD909C1B49BC1ACB985F7C3542A60ACB44
   InstallerSwitches:
     Custom: /CurrentUser
 - Architecture: x64
   Scope: machine
-  InstallerUrl: https://cdn.kde.org/ci-builds/education/kbruch/master/windows/kbruch-master-870-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: B865218F80578027EE7AA65EF09395234ACE8B8DFEDD56018AA05C057449C97C
+  InstallerUrl: https://cdn.kde.org/ci-builds/education/kbruch/master/windows/kbruch-master-881-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 09B8F92649E0A74BCA6915B00C3F50CD909C1B49BC1ACB985F7C3542A60ACB44
   InstallerSwitches:
     Custom: /AllUsers
 ManifestType: installer
